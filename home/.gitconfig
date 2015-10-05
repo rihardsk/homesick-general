@@ -1,3 +1,6 @@
 [alias]
-    l = log --graph --pretty=format:'%C(yellow)%h%Creset%C(blue)%d%Creset %C(white bold)%s%Creset %C(white dim)(by %an %ar)%Creset'
+    l = log --graph --pretty=format:'%C(yellow)%h%Creset%C(blue)%d%Creset %C(auto)%s%Creset %C(white dim)(by %an %ar)%Creset'
     ll = !git l --all
+[user]
+	email = rihards.krislauks@gmail.com
+	name = Rihards Krišlauks

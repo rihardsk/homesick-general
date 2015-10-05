@@ -144,3 +144,6 @@ set ignorecase
 " Add an extra spece after comment symbol
 let NERDSpaceDelims=1
 
+" enable syntax higlighting
+filetype plugin on
+syntax on
