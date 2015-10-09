@@ -4,3 +4,5 @@
 [user]
 	email = rihards.krislauks@gmail.com
 	name = Rihards Krišlauks
+[core]
+	pager = less -S
