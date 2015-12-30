@@ -147,3 +147,9 @@ let NERDSpaceDelims=1
 " enable syntax higlighting
 filetype plugin on
 syntax on
+
+" string search shortcuts
+:nnoremap gr :grep <cword> *<CR>
+:nnoremap Gr :grep <cword> %:p:h/*<CR>
+:nnoremap gR :grep '\b<cword>\b' *<CR>
+:nnoremap GR :grep '\b<cword>\b' %:p:h/*<CR>
