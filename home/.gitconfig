@@ -7,3 +7,4 @@
 [core]
 	pager = less -S
 	autocrlf = input
+	editor = vim
