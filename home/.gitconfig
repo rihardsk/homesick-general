@@ -6,3 +6,5 @@
 	name = Rihards Krišlauks
 [core]
 	pager = less -S
+	autocrlf = input
+	editor = vim
